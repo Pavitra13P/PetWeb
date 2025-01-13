@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Store</title>
+    
+    <!-- swiper package for image-slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- font awesome -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.150.4/css/all.min.css"
+    /> -->
+
+    <!-- icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script>
+      window.digitalData = window.digitalData || [];
+  
+      // Page Load Data
+      window.digitalData.push({
+          page: {
+              pageInfo: {
+                  pageName: "Homepage",
+                  siteSection: "Pets",
+                  language: "en-US"
+              },
+              category: {
+                  primaryCategory: "General"
+              }
+          },
+          user: {
+              userId: "12345",
+              userType: "guest"
+          }
+      });
+      </script>
+  </head>
+  <body>
+    <!-- header --> 
+
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-paw"></i> Pet shop</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#about">about</a>
+        <a href="#gallery">gallery</a>
+        <a href="#animal">animal</a>
+        <a href="#products">products</a>
+        <a href="#cart">cart</a>
+        <a href="#plan">plan</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+
+
+      <div class="icons">
+        <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+        <div id="login-btn" class=""><ion-icon name="person-circle-outline"></ion-icon></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <!-- login form -->
+
+      <form action="" class="login-form">
+        <h3>login form</h3>
+
+        <input type="email" placeholder="Enter your email" class="box" />
+        <input type="password" placeholder="Enter your password" class="box" />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <a href="#" class="btn" id="loginSubmitButton">login</a>
+      </form>
+    </header>
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>
+          Find the best companion for<br />
+          you :)
+        </h3>
+        <a href="#about" class="btn">Take a look</a>
+      </div>
+
+      <img src="images/bottom_wave.png" alt="" class="wave" />
+    </section>
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+      <h2 class="deco-title">About us</h2>
+
+      <div class="box-container">
+        <div class="image">
+          <img
+            src="https://media.istockphoto.com/id/167580039/photo/group-of-pets-dog-cat-bird-reptile-rabbit.jpg?s=612x612&w=0&k=20&c=4eR0Hm24eedR4AJ46j6b8ZZUACi3GoRYk99QGKFLO20="
+            alt=""
+          />
+        </div>
+
+        <div class="content">
+          <h3 class="title">you can find all the most popular species</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            temporibus ipsum consectetur asperiores modi ratione. Sit, dolores
+            voluptas consequuntur dolor tempore quibusdam est obcaecati possimus
+            omnis, officiis molestias et sapiente.
+          </p>
+
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-graduation-cap"></i>
+              <h3>we educate</h3>
+            </div>
+            <div class="icons">
+              <i class="fas fa-bullhorn"></i>
+              <h3>we play</h3>
+            </div>
+            <div class="icons">
+              <i class="fas fa-book-open"></i>
+              <h3>getting to know</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end -->
+
+    <!-- gallery -->
+
+    <!-- <section class="gallery" id="gallery">
+      <h2 class="heading">gallery</h2>
+
+      <div class="swiper gallery-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img
+                src="https://images6.alphacoders.com/324/324834.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img
+                src="https://th.bing.com/th/id/OIP.u_6n8_wnj2-4UKOmGtlHZAHaF7?w=239&h=190&c=7&r=0&o=5&pid=1.7"          
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img
+                src="https://th.bing.com/th/id/OIP.sLn70FY0D2zad4NhotzlFwAAAA?pid=ImgDet&w=182&h=172&c=7"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- end -->
+
+    <!-- animals -->
+
+    <section class="animal" id="animal">
+      <h2 class="heading">animals</h2>
+
+      <div class="box-container">
+        <div class="box">
+          <img
+            src= "https://realistrebel.files.wordpress.com/2015/01/cutest-puppy-ever-1384460985_org.jpg"
+            alt="dog image"
+          />
+          <div class="content">
+            <h3>dogs</h3>
+            <a href="#dog.html" class="btn" onclick="fun1()">know more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://c1.wallpaperflare.com/preview/56/237/129/cat-feline-animal-yellow.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3>cats</h3>
+            <a href="#cat.html" class="btn" onclick="fun2()">know more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://w0.peakpx.com/wallpaper/277/514/HD-wallpaper-be-birds-coluorfull-macaw-parrot-parrots-thumbnail.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3>birds</h3>
+            <a href="#bird.html" class="btn" onclick="fun3()">know more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://w0.peakpx.com/wallpaper/776/6/HD-wallpaper-fish-aquarium-orange.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3>fishes</h3>
+            <a href="#fish.html" class="btn" onclick="fun4()">know more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end -->
+
+    <!-- products -->
+
+    <section class="products" id="products">
+
+      <h2 class="heading">Our products</h2>
+
+      <div class="box-container">
+
+          <div class="box">
+              <img src="images/dogfood1.jpg" alt="">
+          
+              <h3>dog food 1</h3>
+              <h4 class="amount">$15</h4>
+              <button class="btn" data-product="dog food 1" data-price="15">Add to Cart</button>
+          </div>
+
+          <div class="box">
+                  <img src="images/dogfood.avif" alt="">
+            
+              <h3>dog food 2</h3>
+              <h4 class="amount">$20</h4>
+              <button class="btn" data-product="dog food 2" data-price="20">Add to Cart</button>
+          </div>
+
+          <div class="box">
+              <img src="images/dogfood3.jpg" alt="">
+              
+              <h3>dog food 3</h3>
+              <h4 class="amount">$30</h4>
+              <button class="btn" data-product="dog food 3" data-price="30">Add to Cart</button>
+          </div>
+
+          <div class="box">
+              <img src="images/catfood1.jpg" alt="">
+        
+          <h3>cat food 1</h3>
+          <h4 class="amount">$15</h4>
+          <button class="btn" data-product="cat food 1" data-price="15">Add to Cart</button>
+      </div>
+
+      <div class="box">
+          <img src="images/catfood2.jpg" alt="">
+          
+          <h3>cat food 2</h3>
+          <h4 class="amount">$10</h4>
+          <button class="btn" data-product="cat food 2" data-price="10">Add to Cart</button>
+      </div>
+
+      <div class="box">
+          <img src="images/catfood3.jpg" alt="">
+          
+          <h3>cat food 3</h3>
+          <h4 class="amount">$20</h4>
+       <button class="btn" data-product="cat food 3" data-price="20">Add to Cart</button>
+      </div>
+      <div class="box">
+          <img src="images/birdfood.jpg" alt="">
+          
+          <h3>Bird food</h3>
+          <h4 class="amount">$10</h4>
+         <button class="btn" data-product="bird food" data-price="10">Add to Cart</button>
+      </div>
+      <div class="box">
+        <img src="https://5.imimg.com/data5/NJ/SP/IB/ANDROID-88308524/1560800264991-jpg.jpg" alt="">
+        
+        <h3>Fish food 1</h3>
+        <h4 class="amount">$15</h4>
+        <button class="btn" data-product="fish food 1" data-price="15">Add to Cart</button>
+    </div>
+    <div class="box">
+      <img src="images/dogfood2.webp" alt="">
+      
+      <h3>Fish food 2</h3>
+      <h4 class="amount">$20</h4>
+      <button class="btn" data-product="fish food 2" data-price="20">Add to Cart</button>
+  </div>
+
+
+      </div>
+
+  </section>
+
+  <div id="cart">
+    <h2 class="heading">Shopping Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="total-amount">0</span></p>
+    <button id="clear-cart">Clear Cart</button>
+</div>
+
+  <!-- end -->
+
+  <!-- plan  -->
+  <section class="plan" id="plan">
+      <h1 class="heading">choose a plan</h1>
+      <div class="box-container">
+          <div class="box">
+              <h3 class="title">pet care</h3>
+              <h3 class="day">1 day</h3>
+              <i class="fas fa-bicycle icon"></i>
+              <div class="list">
+                  <p>pet room <span class="fas fa-check"></span></p>
+                  <p>pet grooming <span class="fas fa-check"></span></p>
+                  <p>pet exercise <span class="fas fa-check"></span></p>
+                  <p>pet meals <span class="fas fa-check"></span></p>
+              </div>
+              <div class="amount"><span>₹</span>50</div>
+              <a href="#" class="btn">choose plan</a>
+          </div>
+
+          <div class="box">
+              <h3 class="title">pet care</h3>
+              <h3 class="day">10 days</h3>
+              <i class="fas fa-motorcycle icon"></i>
+              <div class="list">
+                  <p>pet room <span class="fas fa-check"></span></p>
+                  <p>pet grooming <span class="fas fa-check"></span></p>
+                  <p>pet exercise <span class="fas fa-check"></span></p>
+                  <p>pet meals <span class="fas fa-check"></span></p>
+              </div>
+              <div class="amount"><span>₹</span>500</div>
+              <a href="#" class="btn">choose plan</a>
+          </div>
+          <div class="box">
+              <h3 class="title">pet care</h3>
+              <h3 class="day">150 day</h3>
+              <i class="fas fa-car-side icon"></i>
+              <div class="list">
+                  <p>pet room <span class="fas fa-check"></span></p>
+                  <p>pet grooming <span class="fas fa-check"></span></p>
+                  <p>pet exercise <span class="fas fa-check"></span></p>
+                  <p>pet meals <span class="fas fa-check"></span></p>
+              </div>
+              <div class="amount"><span>₹</span>6000</div>
+              <a href="#" class="btn">choose plan</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- plan ends -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">contact</h2>
+
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="name" />
+          <input type="email" placeholder="email" />
+        </div>
+
+        <div class="inputBox">
+          <input type="number" placeholder="number" />
+          <input type="text" placeholder="subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="300"
+          rows="10"
+          placeholder="meassage"
+        ></textarea>
+
+        <a href="#" class="btn">send message</a>
+      </form>
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-paw"></i> Shop</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="links"><i class="fas fa-clock"></i>monday - friday</p>
+          <p class="days">10:00AM - 7.00PM</p>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#" class="links"
+            ><i class="fas fa-phone"></i> 1245-147-2589</a
+          >
+          <a href="#" class="links"
+            ><i class="fas fa-phone"></i> 1245-147-2589</a
+          >
+          <a href="#" class="links"
+            ><i class="fas fa-envelope"></i> info@petlife.com</a
+          >
+          <a href="#" class="links"
+            ><i class="fas fa-map-marker-alt"></i> tamil nadu, India</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i>about</a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i>gallery</a
+          >
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i>animal</a
+          >
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i>products</a
+          >
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i>plan</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="Your Email" class="email" />
+          <a href="#" class="btn">subscribe</a>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="credit">
+        &copy; 2023 petlife. All rights reserved by
+        <a href="#" class="link">webtechies</a>
+      </div>
+    </section>
+
+    <!-- end -->
+    <script>
+      let cartItems = [];
+      const cartItemsList = document.getElementById('cart-items');
+      const totalAmount = document.getElementById('total-amount');
+      const clearCartButton = document.getElementById('clear-cart');
+  
+      document.querySelectorAll('.btn').forEach(button => {
+          button.addEventListener('click', () => {
+              const product = button.getAttribute('data-product');
+              const price = parseFloat(button.getAttribute('data-price'));
+  
+              cartItems.push({ product, price });
+              updateCart();
+          });
+      });
+  
+      function updateCart() {
+          cartItemsList.innerHTML = '';
+          let total = 0;
+  
+          cartItems.forEach((item, index) => {
+              const li = document.createElement('li');
+              li.textContent = `${item.product} - $${item.price}`;
+              const removeButton = document.createElement('button');
+              removeButton.textContent = 'Remove';
+              removeButton.classList.add('remove-button');
+              removeButton.addEventListener('click', () => removeItem(index));
+              li.appendChild(removeButton);
+              cartItemsList.appendChild(li);
+              total += item.price;
+          });
+  
+          totalAmount.textContent = total.toFixed(2);
+      }
+  
+      function removeItem(index) {
+          cartItems.splice(index, 1);
+          updateCart();
+      }
+  
+      clearCartButton.addEventListener('click', () => {
+          cartItems = [];
+          updateCart();
+      });
+  
+      updateCart();
+  </script>
+  
+    
+
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- <script src="js/script.js"></script> -->
+
+    <script>
+      var swiper = new Swiper(".gallery-slider", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverfloeEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2,
+          slideShadows: true,
+        },
+        loop: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+      });
+      // navigate
+      function fun1() {
+        window.location = "dog.html";
+      }
+      function fun2() {
+        window.location = "cat.html";
+      }
+      function fun3() {
+        window.location = "bird.html";
+      }
+      function fun4() {
+        window.location = "fish.html";
+      }
+    </script>
+  </body>
+</html>
